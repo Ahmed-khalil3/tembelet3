@@ -1,0 +1,581 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.contaner{
+    margin: 50px auto;
+
+}
+body{
+    position: relative;
+    background-color: black;
+}
+
+/* header */
+.header{
+    position: fixed;
+   z-index: 100;
+   width: 29%;
+    background-color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(146, 136, 136);
+    
+  
+}
+.navcon{
+   display:flex ;
+   flex-direction: column;
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.navico a{
+text-decoration: none;
+color: white;
+font-size: 17px;
+font-weight: 400px;
+line-height: 3;
+transition: 0.5s;
+}
+.navico a:hover{
+    transform: scale(1.1);
+    background-color: rgba(245, 245, 220, 0.555);
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+}
+.navcon button{
+    width: 150px;
+    padding: 15px 10px ;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    margin: 40px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.navcon button:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 37, 58);
+
+}
+.navbo{
+    position: relative;
+  
+
+}
+.masseg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    border: 50px;
+    border-color: antiquewhite;
+    padding: 7px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(48, 48, 48);
+}
+.masseg img{
+    width: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+.masseg h1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.masseg span{
+    font-size: 10px;
+    opacity: 0.5;   
+}
+#clook{
+    font-size: 10px;
+    opacity: 0.5;   
+    position: absolute;
+    right: 30px;
+    top: 19px;
+}
+/* tweeeets */
+.section{
+    width: 500px;
+    height: max-content;
+    background-color: black;
+    margin-left: 29.20%;
+    position: relative;
+  
+}
+.navtwet{
+    position: relative;
+    background-color: black;
+    position: fixed;
+    width: 500px ;
+   height: 50px;
+   z-index: 100;
+   
+   
+}
+.navtwet h1 {
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+}
+.navtwet h1 span{
+    margin-left: 350px;
+}
+/* contane */
+.contanertwet{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(146, 136, 136);
+    width: 100%;
+  
+}
+.card{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(146, 136, 136);
+    position: relative;
+    margin-top: 5px;
+    width: 99%;
+    height: 120px;
+    
+}
+.card1{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(146, 136, 136);
+    position: relative;
+    margin-top: 5px;
+    width: 99%;
+    height: 120px;
+    margin-top: 50px;
+    
+}
+
+/*  */
+.headcard{
+    position: absolute;
+    width: 80%;
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.headcard img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+    
+}
+.headcard h1{
+    font-size: 15px;
+    margin: auto 10px;
+}
+.headcard h1 span{
+    font-size: 15px;
+    opacity: 0.5;   
+    margin-left: 7px;
+    word-spacing: 5px;
+}
+.medcard{
+    position: absolute;
+    width: 80%;
+    left: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    color: antiquewhite;
+    top: 50px;
+  
+}
+.medcard p{
+    color: white;
+    font-size: 17px;
+}
+.bootcard{
+    position: absolute;
+    width: 80%;
+    left: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    top: 90px;
+
+}
+.bxs-heart{
+transition: 0.5s;
+}
+.bxs-heart:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.bootcard a{
+    color: aliceblue;
+}
+/* trend */
+.trendcon{
+background-color: rgb(0, 0, 0);
+width: 50%;
+height:1000px;
+margin-left:67.57%;
+position: absolute;
+position: fixed;
+z-index: 100;
+}
+.search{
+    margin: 20px 30px;
+   
+}
+.search form{
+    border: none;
+    border-style: none;
+}
+.search form input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+   letter-spacing: 1px;
+   opacity: 0.75;
+}
+
+/* WHATSHAAPEN */
+.whatshappen{
+    background-color: rgba(0, 23, 77, 0.459);
+    width: 50%;
+    height: max-content;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.whatshappen h1{
+    color: aliceblue;
+    padding: 20px;
+}
+.trending{
+ 
+    width: 85%;
+    height: 60px;
+    margin: 0px auto;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.trending h5{
+    color: white;
+    opacity: 0.5;
+}
+.trending h5 span a{
+    margin-left: 60%;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+.trending h2{
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 10px;
+}
+#see{
+    color: rgb(27, 122, 245);
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 20px;
+
+}
+/* foolo  */
+.foolome{
+    background-color: rgba(0, 23, 77, 0.459);
+     width: 50%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.foolome h2{
+    padding: 10px;
+    color: wheat;
+    opacity: 0.75;
+}
+
+.follo{
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   
+}
+.follo button{
+    padding: 10px;
+    border-radius: 100px;
+    position: absolute;
+    left: 230px;
+    cursor: pointer;
+   transition: 0.5s;
+   text-transform: capitalize;
+}
+.follo button:hover{
+    transform: scale(1.1);
+    background-color: rgb(5, 44, 90);
+}
+.follo img{
+    width: 30px;
+    height: 30px; 
+    border-radius: 20px;  
+    margin-right: 10px;
+    object-fit: contain;
+}
+.follo h5{
+    color: white;
+    font-size: 17px;
+}
+.cala{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.cala h6{
+    color: white;
+    opacity: 0.5;
+}
+.cala1{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.cala1 h6{
+    color: white;
+    opacity: 0.5;
+}
+@media screen and (max-width:480px) {
+
+    .navcon{
+        margin-left: 20px;
+    }
+    .navcon button{
+       margin: 1px 20px;
+       width: 70px;
+    }
+    .navtwet{
+        width: 300px;
+
+    }
+    .navtwet h1{
+        margin-left:70px;
+    }
+    .navtwet h1 span{
+        margin-left: 120px;
+    }
+    .contanertwet{
+        width: 46%;
+        margin-left: 65px;
+    }
+    .card {
+        width: 100%;  
+      
+    }
+    .card1{
+        width: 100%;  
+      
+    }
+    .headcard{
+        width: 100%;
+    }
+    .headcard img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .headcard h1{
+        font-size: 15px;
+        margin: auto 2px;
+    }
+    .headcard h1 span{
+        font-size: 8px;
+        opacity: 0.5;   
+        margin-left: 1px;
+        word-spacing: 2px;
+    }
+
+    .medcard{
+        width: 100%;
+        left:20px;
+        top: 40px;
+    }
+    
+    .bootcard{
+        width: 100%;
+        gap: 30px;
+        left: 35px;
+    }
+    .whatshappen h1{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .trending h5 span a{
+        margin-left: 90%; 
+    }
+    .search{
+        margin: 10px 15px;
+    }
+    .search form input{
+        width: 150px;
+    }
+    .trendcon{
+        width: 50%;
+    }
+    .follo img{
+        width: 25px;
+        height: 25px;   
+    }
+    .follo{
+        margin-bottom: 100px;
+    }
+    .follo h5{
+        font-size: 12px;  
+    }
+    .cala{
+        top: 60px;
+        left: 50px;
+       
+    }
+    .cala1{
+        top: 190px;
+        left: 50px;
+    }
+    .follo button{
+        left: 70px;
+        margin:60px auto;
+    }
+    .masseg{
+        width: 90%;margin-left: 0px;
+    }
+    #clook{
+        top: 35px;
+        right: 20px;
+    }
+    .masseg h1{
+        font-size: 12px;
+        margin-left: 10px;  
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .navcon{
+        margin-left: 70px;
+    }
+    .navcon button{
+       margin: 10px 50px;
+       width: 70px;
+    }
+    .navtwet{
+        width: 400px;
+
+    }
+    .navtwet h1 span{
+        margin-left: 280px;
+    }
+    .contanertwet{
+        width: 78%;
+        /* margin-left: 70px; */
+    }
+    .card {
+        width: 100%;  
+      
+    }
+    .card1{
+        width: 100%;  
+      
+    }
+    .headcard{
+        width: 100%;
+    }
+    .headcard img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .headcard h1{
+        font-size: 15px;
+        margin: auto 2px;
+    }
+    .headcard h1 span{
+        font-size: 8px;
+        opacity: 0.5;   
+        margin-left: 1px;
+        word-spacing: 2px;
+    }
+
+    .medcard{
+        width: 100%;
+        left:20px;
+        top: 40px;
+    }
+    
+    .bootcard{
+        width: 100%;
+        gap: 30px;
+        left: 35px;
+    }
+    .whatshappen h1{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .trending h5 span a{
+        margin-left: 90%; 
+    }
+    .search{
+        margin: 10px 15px;
+    }
+    .search form input{
+        width: 230px;
+    }
+    .trendcon{
+        width: 50%;
+    }
+    .follo img{
+        width: 25px;
+        height: 25px;   
+    }
+    .follo{
+        margin-bottom: 100px;
+    }
+    .follo h5{
+        font-size: 12px;  
+    }
+    .cala{
+        top: 68px;
+        left: 50px;
+       
+    }
+    .cala1{
+        top: 195px;
+        left: 50px;
+    }
+    .follo button{
+        left: 170px;
+        /* margin:60px auto; */
+    }
+    .masseg{
+        width: 90%;margin-left: 0px;
+    }
+    #clook{
+        top: 35px;
+        right: 20px;
+    }
+    .masseg h1{
+        font-size: 12px;
+        margin-left: 10px;  
+    }
+}
